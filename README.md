@@ -22,26 +22,18 @@ Sticker Smash est une application React Native permettant d'ajouter des stickers
 ### Étapes
 
 1. Clonez le projet :
-   ```sh
+   ```bash
    git clone https://github.com/BioKobena/stickerSmash
    cd stickerSmash
    ```
 2. Installez les dépendances :
-   ```sh
+   ```bash
    npm install
    ```
 3. Lancez l'application :
-   ```sh
+   ```bash
   npx expo start
    ```
-
-## 📸 Capture d'écran
-
-![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/ueut1twj8niv6syjtmrg.jpg)
-
-![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/meeqcwpinow3i3zxzhso.jpg)
-
-![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/iaps1977ctuj1qgqr6j8.jpg)
 
 ## 🛠 Technologies utilisées
 
@@ -65,8 +57,6 @@ Si vous rencontrez une erreur sur le web :
 The method or property MediaLibrary.saveToLibraryAsync is not available on web
 ```
 ➡️ La sauvegarde ne fonctionne que sur mobile. Pour le web, une alternative `dom-to-image` est utilisée.
-
-`@ts-ignore est une alternative pour ignorer des erreurs non valide en TypeScript`
 
 ## 🤝 Contribuer
 
