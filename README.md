@@ -1,52 +1,78 @@
-# Welcome to your Expo app 👋
+# Sticker Smash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Sticker Smash](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/meeqcwpinow3i3zxzhso.jpg)
 
-## Get started
+Sticker Smash est une application React Native permettant d'ajouter des stickers et des emojis à des images, avec la possibilité de les sauvegarder. (Inspiré de A à Z de Expo Get Started)
 
-1. Install dependencies
+## 🚀 Fonctionnalités
 
-   ```bash
+- 📷 Sélection d'images depuis la galerie
+- 😀 Ajout de stickers/emojis personnalisés
+- 💾 Sauvegarde d'images (mobile et web)
+- 🔄 Redémarrage rapide
+- 🏗 Interface utilisateur optimisée avec Material UI
+
+## 📦 Installation
+
+### Prérequis
+
+- Node.js (>=23.5.0)
+- Expo CLI
+
+### Étapes
+
+1. Clonez le projet :
+   ```sh
+   git clone https://github.com/BioKobena/stickerSmash
+   cd stickerSmash
+   ```
+2. Installez les dépendances :
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Lancez l'application :
+   ```sh
+  npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📸 Capture d'écran
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/ueut1twj8niv6syjtmrg.jpg)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/meeqcwpinow3i3zxzhso.jpg)
 
-## Get a fresh project
+![Screenshot](https://res.cloudinary.com/drrf4valz/image/upload/v1739743183/x-laya/iaps1977ctuj1qgqr6j8.jpg)
 
-When you're ready, run:
+## 🛠 Technologies utilisées
 
-```bash
-npm run reset-project
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Native View Shot](https://github.com/gre/react-native-view-shot)
+- [Expo Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [Expo Media Library](https://docs.expo.dev/versions/latest/sdk/media-library/)
+- [Toastify React Native](https://github.com/onemolegames/toastify-react-native)
+
+## 📜 Utilisation
+
+1. Cliquez sur **Choisir une photo** pour sélectionner une image.
+2. Ajoutez des stickers/emojis à votre image.
+3. Sauvegardez l'image ou redémarrez pour en choisir une autre.
+
+## 🐛 Dépannage
+
+Si vous rencontrez une erreur sur le web :
+```txt
+The method or property MediaLibrary.saveToLibraryAsync is not available on web
 ```
+➡️ La sauvegarde ne fonctionne que sur mobile. Pour le web, une alternative `dom-to-image` est utilisée.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+`@ts-ignore est une alternative pour ignorer des erreurs non valide en TypeScript`
 
-## Learn more
+## 🤝 Contribuer
 
-To learn more about developing your project with Expo, look at the following resources:
+Les contributions sont les bienvenues ! Pour contribuer :
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# StickerSmash
-# stickerSmash
+1. Forkez le projet
+2. Créez une branche `dev-fork`
+3. Faites un commit et poussez vos modifications
+4. Ouvrez une pull request

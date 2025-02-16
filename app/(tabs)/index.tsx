@@ -109,7 +109,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <View ref={imageRef} style={{ flex: 1 }}>
+      <View ref={imageRef} style={{ }}>
         <ImageViewer imageSource={selectedImage || PlaceholderImage} />
         {pickedEmoji &&
           <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
